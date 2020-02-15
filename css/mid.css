@@ -1,0 +1,38 @@
+.middle h3{
+    color: red;
+    float: right;
+    padding: 20px 20px;
+   
+}
+.middle{
+    border: 1px solid black;
+}
+
+
+.prof1{
+    position: relative;
+    animation: bgcolor infinite 20s;
+    height: 35px;
+    width: 400px;
+    margin-left:160px;
+    border-radius: 10px 10px 10px 10px;
+}
+.prof1 h2{
+    padding: 4px;
+    position: relative;
+    text-align:center;
+    color: black;
+}
+
+.prof2{
+    position: relative;
+    padding-top:15px;
+    height: 800px;
+    width: 400px;
+    left: 25%;
+}
+.prof2 img{
+    top: 3%;
+    position: relative;
+    left: 15%;
+}

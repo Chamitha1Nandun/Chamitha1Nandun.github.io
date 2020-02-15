@@ -1,0 +1,178 @@
+            body{
+                background-image: url(../img/wall.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;
+                font-family: arial;
+                
+                
+            }
+            .header{
+                background-image: url(../icon/header.png);
+                height: 140px;
+                margin-top: 2px;
+                
+               
+            }
+            .logo2{
+              padding: 2px 20px ;
+              float: left;
+              width: 150px;
+            }
+			.logo{
+              padding: 30px 240px ;
+            }
+         
+            .subnavi {
+              float: right;
+              margin-top: -110px;
+              padding: 10px 10px;
+              
+            }
+            .subnavi button{
+                background: none;
+                font-family: sans-serif;
+                color: white;
+                border: 2px solid #4caf50;
+                cursor: pointer;
+                list-style: none;
+            }
+            .subnavi button a:hover{
+                color: green;
+            }
+            .subnavi button a{
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+    
+            }
+            .subnavi h4{
+                float: left;
+                color: white;
+                margin-top: 2px;
+                padding: 0px 10px;
+            }
+
+            
+            .menu-area{
+                background: #333333;
+                height: 43px;
+                margin-top: 4px;
+                z-index: 200;
+                position: relative;
+                width: 100%;
+                
+            }
+            .menu-area ul{
+                float: left;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 85%;
+            }
+            .menu-area ul li{
+                display: block;
+                float: left;
+                width: 200px;
+                height: 40px;
+                line-height: 40px;
+                background-color: #000000;
+                opacity: .9;
+                text-align: center;
+                font-size: 15px;
+                margin: 1px;
+            }
+            .menu-area a{
+                color: #ffffff;
+                display: block;
+                text-decoration: none;
+                resize: both;
+				transition:0.5s
+                
+            }
+            .menu-area a:hover{
+                background-color: green;
+                font-weight: bold;
+            }
+            .menu-area ul li ul li{
+                font-size: 15px;
+                display: none;
+                resize: both;
+                position: relative;
+                z-index: 100;
+            }
+            .menu-area ul li:hover ul li{
+                display: block;
+            }
+            .search form input[type=text]{
+                background-image: url(../icon/search3.jpg);
+                background-repeat: no-repeat;
+                background-position: 7px 7px;
+                padding: 12px 10px 3px 42px;
+                border-radius: 25px;
+                margin-top: 3px;
+                outline: none;
+                width: auto;
+                -webkit-transition: width 0.7s esse-in-out;
+                -moz-transition: width 0.7s esse-in-out;
+                -ms-transition: width 0.7s esse-in-out;
+                -o-transition: width 0.7s esse-in-out;
+                transition: width 0.7s esse-in-out;
+                
+            }
+            .search input[type=text]:focus{
+                width: auto;
+            }
+           
+            
+            .middle{
+                position: relative;
+                z-index: 10 ;
+                background-image: url(icon/middle.png);
+                margin-top: 10px;
+                height: 100%;
+                width: 100%;
+            }
+            
+               
+                            
+             .footer{
+                background-image: url(icon/middle.png);
+                margin-top: 15px;
+                height: 120px;
+                
+            }
+            
+            .editable table{
+                margin-top: 20px;
+                border: 1px black solid;
+                
+                background: activeborder;
+                
+            }
+            table tr td{
+                width: 2px;
+            }
+            
+            .editable table tr td input[type=text]{
+                width: 98px;
+            }
+            .button_adm,.button_adm1{
+				
+				padding: 10px;
+				font-size:20px;
+                width: 200px;
+                margin-top: 30px;
+			    transition: 0.5s;
+				
+           
+            }
+			.button_adm1{margin-left: 700px;}
+			.button_adm:hover{background-color: Green; transform: scale(1.2); cursor: pointer;}
+			.button_adm1:hover{background-color: Green; transform: scale(1.2); cursor: pointer;}
+          
+            @media screen and (max-width:1330px){
+                body{
+                    width: 1330px;
+                }
+                
+            }
